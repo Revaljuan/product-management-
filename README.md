@@ -14,11 +14,3 @@ Tombol “Add new product” menuju halaman tambah produk.
 Form input untuk nama, deskripsi, dan harga produk.
 Data dikirim ke route products.store.
 Group routing dengan prefix /products dan controller ProductController.
-🗂️ Struktur Route
-Nama Route	URI	Method	Controller Method
-products	/products	GET	index
-products.create	/products/create	GET	create
-products.store	/products/store	POST	store
-products.edit	/products/edit/{id}	GET	edit
-products.update	/products/update/{id}	POST	update
-products.show	/products/show/{id}	GET	show
